@@ -1,0 +1,23 @@
+for dir in player1 player2 player3 player4 player5; do \
+		make -C $dir; \
+	done
+make[1]: Entering directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player1'
+g++ -Wall -c  -std=c++11 -pthread  `pkg-config gtkmm-3.0 --cflags --libs` MPC_Player.cpp -o MPC_Player.o `pkg-config gtkmm-3.0 --cflags --libs`
+g++  MPC_Player.o mpc-gui-p2p-peer1.o MPCGUI.o -o mpc-gui-p2p-peer1 `pkg-config gtkmm-3.0 --cflags --libs`
+make[1]: Leaving directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player1'
+make[1]: Entering directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player2'
+g++ -Wall -c  -std=c++11 -pthread  `pkg-config gtkmm-3.0 --cflags --libs` MPC_Player.cpp -o MPC_Player.o `pkg-config gtkmm-3.0 --cflags --libs`
+g++  MPC_Player.o mpc-gui-p2p-peer2.o MPCGUI.o -o mpc-gui-p2p-peer2 `pkg-config gtkmm-3.0 --cflags --libs`
+make[1]: Leaving directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player2'
+make[1]: Entering directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player3'
+g++ -Wall -c  -std=c++11 -pthread  `pkg-config gtkmm-3.0 --cflags --libs` MPC_Player.cpp -o MPC_Player.o `pkg-config gtkmm-3.0 --cflags --libs`
+g++  MPC_Player.o mpc-gui-p2p-peer3.o MPCGUI.o -o mpc-gui-p2p-peer3 `pkg-config gtkmm-3.0 --cflags --libs`
+make[1]: Leaving directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player3'
+make[1]: Entering directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player4'
+g++ -Wall -c  -std=c++11 -pthread  `pkg-config gtkmm-3.0 --cflags --libs` MPC_Player.cpp -o MPC_Player.o `pkg-config gtkmm-3.0 --cflags --libs`
+g++  MPC_Player.o mpc-gui-p2p-peer4.o MPCGUI.o -o mpc-gui-p2p-peer4 `pkg-config gtkmm-3.0 --cflags --libs`
+make[1]: Leaving directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player4'
+make[1]: Entering directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player5'
+g++ -Wall -c  -std=c++11 -pthread  `pkg-config gtkmm-3.0 --cflags --libs` MPC_Player.cpp -o MPC_Player.o `pkg-config gtkmm-3.0 --cflags --libs`
+g++  MPC_Player.o mpc-gui-p2p-peer5.o MPCGUI.o -o mpc-gui-p2p-peer5 `pkg-config gtkmm-3.0 --cflags --libs`
+make[1]: Leaving directory '/home/mohammad/Desktop/C++/MPC-GUI-P2P-GUI again/player5'

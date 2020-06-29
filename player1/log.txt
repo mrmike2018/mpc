@@ -1,0 +1,15 @@
+[3;J[H[2JPlayer 1 (secret: 2, listening port no: 5555)
+>>>>>>>>>>>>>>>recent change: sleep for 10 micro seconds, test this more<<<<<<<<<<<<<<<<<<<<<<<<
+-----My secret polynomial: 2 + 39x^1 + 19x^2
+-----sharesOfMySecret: 19 33  3 11 16 
+Thread 2: receiving data on port: 5555...
+-----mySharesOfDifferentSecrets: 19 23 10  4 27 
+------------------------------------Sharing finished
+
+------------------multiplicationOfAllSecrets step by step: 38
+------------------multiplicationOfAllSecrets step by step: 35
+------------------multiplicationOfAllSecrets step by step: 34
+------------------multiplicationOfAllSecrets step by step: 0
+------------------multiplicationOfAllSecrets: 0
+
+End

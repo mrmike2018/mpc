@@ -1,0 +1,4 @@
+# https://stackoverflow.com/questions/9123666/command-line-arguments-for-a-program-run-in-a-makefile
+.PHONY: run
+run: mpc-gui-p2p-peer1
+	./mpc-gui-p2p-peer1
